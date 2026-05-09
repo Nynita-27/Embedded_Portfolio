@@ -2,6 +2,10 @@
   A real-time embedded safety system that automatically detects vehicle falls and crashes, pinpoints the GPS location, alerts nearby vehicles wirelessly, and sends emergency SMS + voice call — all within seconds.
 
 > Project developed as part of **PG-Diploma in Embedded System Design** at **C-DAC Hyderabad** (February 2025)
+
+  ## 📸 Project Setup
+  ![Project Setup](./images/project%20setup.png)
+  
   ## 🧠 How It Works
   
   1. STM32F411RE continuously reads acceleration data from ADXL345 and impact signal from SW420
@@ -12,6 +16,10 @@
   6. ESP32 sends SMS with Google Maps link to emergency contact via Twilio API
   7. ESP32 initiates an automated voice call to emergency contact
   8. Receiving vehicles display the alert on their OLED screen
+
+  ## 🗺️ System Architecture
+  
+  ![Architecture](./images/Architecture%20of%20project.png)
      
   ## ⚙️ Hardware Components
   
@@ -40,6 +48,10 @@
   - Automated voice call triggered on crash detection
   - Nearby vehicle received ESP-NOW alert and displayed it on OLED
   - End-to-end alert delivered within seconds of crash event
+    
+    ![Result 1](./images/Result_1.png)
+    ![Result 2](./images/Result_2.png)
+    ![Result 3](./images/Result_3.png)
 
   ## 🔮 Future Scope
   
